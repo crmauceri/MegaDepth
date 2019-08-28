@@ -1,9 +1,9 @@
 import random
 import numpy as np
 import torch.utils.data
-from data.base_data_loader import BaseDataLoader
-from data.image_folder import ImageFolder
-from data.image_folder import ImageFolder_TEST
+from megadepth.data import BaseDataLoader
+from megadepth.data.image_folder import ImageFolder
+from megadepth.data.image_folder import ImageFolder_TEST
 from builtins import object
 import sys
 import h5py

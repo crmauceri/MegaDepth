@@ -1,6 +1,7 @@
 import argparse
 import os
-from util import util
+from megadepth.util import util
+
 
 class BaseOptions():
     def __init__(self):
